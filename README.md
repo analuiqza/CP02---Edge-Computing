@@ -50,20 +50,23 @@ O projeto CP02 tem como objetivo garantir que as condições de armazenamento do
 
 1.Separe os componentes
    - Microcontrolador, sensores (DHT11 e LDR), Display LCD, RTC, EEPROM, LEDs, Buzzer, protoboard, jumpers e resistores.
-	![Image](https://github.com/user-attachments/assets/da70d305-e713-4c03-a0f6-b2bab2d6d5c7)
+     
+     ![imagem componentes](https://github.com/user-attachments/assets/a2284b4b-4e92-49cd-be85-7868dbaa60c3)
 
 2. Monte o circuito:
    - Monte o circuito com o sensor (DHT11 de maneira que possa medir a temperatura e umidade e LDR de forma que possa medir a luminosidade), o display, os LEDs, buzzer, módulo RTC e a EEPROM.
-   	-(foto do circuito)
+     
+     ![imagem circuito](https://github.com/user-attachments/assets/9f5362f3-f790-48ff-b176-37d1f0c6a1d8)
+
 3. Configure a IDE do Arduino:
    - Instale as bibliotecas necessárias.
    - Selecione a a placa e a porta corretas.
 
-3. Carregue o código:
+4. Carregue o código:
    - Faça upload do programa que lê os sensores, mostra os dados no LCD e ativa os alertas.
    - O código também salvará leituras no RTC e EEPROM.
 
-4. Acompanhe o funcionamento:
+5. Acompanhe o funcionamento:
    - Veja os dados no LCD.
    - Se a temperatura ultrapassar 16°C ou a umidade sair da faixa 60–80% <!MUDAR! , um LED ou o buzzer será ativado.
    - A luminosidade será lida continuamente e suavizada com médias calculadas a cada 10 segundos.
