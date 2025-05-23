@@ -85,6 +85,7 @@ O projeto CP02 tem como objetivo garantir que as condições de armazenamento do
 ## Função `map()`:
 
 O sensor LDR retorna um valor analógico que pode variar de 0 a 1023. A função `map()` é usada para transformar esse valor em uma escala útil, e a cada 10 segundos calcular a média para suavizar oscilações rápidas da luz ambiente.
+	![imagem map()](https://github.com/user-attachments/assets/1eb131ae-95d9-49c4-892c-ba3844cc3bad)
 
-	![imagem map()](https://github.com/user-attachments/assets/16bc83fc-c68f-4668-bf31-a6eed30dbffd)
+	
 
