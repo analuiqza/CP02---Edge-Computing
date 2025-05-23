@@ -50,7 +50,8 @@ O projeto CP02 tem como objetivo garantir que as condições de armazenamento do
 
 1.Separe os componentes
    - Microcontrolador, sensores (DHT11 e LDR), Display LCD, RTC, EEPROM, LEDs, Buzzer, protoboard, jumpers e resistores.
-	-(foto dos componentes)
+	![Image](https://github.com/user-attachments/assets/da70d305-e713-4c03-a0f6-b2bab2d6d5c7)
+
 2. Monte o circuito:
    - Monte o circuito com o sensor (DHT11 de maneira que possa medir a temperatura e umidade e LDR de forma que possa medir a luminosidade), o display, os LEDs, buzzer, módulo RTC e a EEPROM.
    	-(foto do circuito)
