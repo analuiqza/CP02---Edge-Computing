@@ -68,7 +68,7 @@ O projeto CP02 tem como objetivo garantir que as condições de armazenamento do
 
 5. Acompanhe o funcionamento:
    - Veja os dados no LCD.
-   - Se a temperatura ultrapassar 16°C ou a umidade sair da faixa 60–80% <!MUDAR! , um LED ou o buzzer será ativado.
+   - Se a temperatura ou a umidade sairem do padrão, um LED ou o buzzer será ativado.
    - A luminosidade será lida continuamente e suavizada com médias calculadas a cada 10 segundos.
 
 
@@ -81,18 +81,10 @@ O projeto CP02 tem como objetivo garantir que as condições de armazenamento do
 3. Verifique se tudo funciona como esperado, mesmo sem os componentes físicos.
 	-(foto da simulação)
 
-
-## Faixas de armazenamento:
-
-    Fator              Valor ideal                          
- Temperatura   -  ~13°C (não passar de 16°C)            
- Umidade       -  ~70% (entre 60% e 80%)                
- Luminosidade  -  Baixa, ambiente escuro ou com penumbra
-		 ^!MUDAR!^ 
-  	-(foto dos valores colocados)
-
-
+  
 ## Função `map()`:
 
 O sensor LDR retorna um valor analógico que pode variar de 0 a 1023. A função `map()` é usada para transformar esse valor em uma escala útil, e a cada 10 segundos calcular a média para suavizar oscilações rápidas da luz ambiente.
-	-(foto função map no código)
+
+	![imagem map()](https://github.com/user-attachments/assets/16bc83fc-c68f-4668-bf31-a6eed30dbffd)
+
