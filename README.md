@@ -60,7 +60,7 @@ O projeto CP02 tem como objetivo garantir que as condições de armazenamento do
 
 3. Configure a IDE do Arduino:
    - Instale as bibliotecas necessárias.
-   - Selecione a a placa e a porta corretas.
+   - Selecione a placa e a porta corretas.
 
 4. Carregue o código:
    - Faça upload do programa que lê os sensores, mostra os dados no LCD e ativa os alertas.
