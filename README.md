@@ -81,6 +81,9 @@ O projeto CP02 tem como objetivo garantir que as condições de armazenamento do
 3. Verifique se tudo funciona como esperado, mesmo sem os componentes físicos.
 	-(foto da simulação)
 
+![IMG-20250523-WA0034](https://github.com/user-attachments/assets/c5124283-b5f2-4fc6-9e1d-5587f1f2c7a9)
+
+
   
 ## Função `map()`:
 
